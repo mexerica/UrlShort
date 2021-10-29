@@ -1,0 +1,23 @@
+{
+  "name": "shortener",
+  "version": "1.0.0",
+  "description": "url shortener for DIO project",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc",
+    "dev": "nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mexerica",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^9.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "cors": "^2.8.5",
+    "eslint": "^8.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "typescript": "^4.4.4"
+  }
+}
